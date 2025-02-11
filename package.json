@@ -1,18 +1,32 @@
 {
-  "name": "project-name_stack",
-  "private": true,
-  "version": "0.1.0",
-  "description": "DargStack configuration for <project_name>.",
   "author": "<author_name> <<author_email>>",
-  "license": "<license>",
+  "description": "DargStack configuration for <project_name>.",
   "devDependencies": {
-    "@commitlint/cli": "17.6.3",
-    "@commitlint/config-conventional": "17.6.3",
-    "dargstack": "2.2.1",
-    "dargstack_rgen": "0.9.5",
-    "husky": "8.0.3"
+    "@commitlint/cli": "19.7.1",
+    "@commitlint/types": "19.5.0",
+    "@dargmuesli/commitlint-config": "0.0.3",
+    "@semantic-release/changelog": "6.0.3",
+    "@semantic-release/commit-analyzer": "13.0.1",
+    "@semantic-release/git": "10.0.1",
+    "@semantic-release/github": "11.0.1",
+    "@semantic-release/npm": "12.0.1",
+    "@semantic-release/release-notes-generator": "14.0.3",
+    "conventional-changelog-conventionalcommits": "8.0.0",
+    "dargstack": "2.2.3",
+    "dargstack_rgen": "0.9.55",
+    "husky": "9.1.7",
+    "semantic-release": "24.2.2"
   },
+  "engines": {
+    "node": "22"
+  },
+  "license": "<license>",
+  "name": "project-name_stack",
+  "packageManager": "pnpm@10.3.0",
+  "private": true,
   "scripts": {
-    "prepare": "husky install"
-  }
+    "prepare": "husky"
+  },
+  "type": "module",
+  "version": "0.1.0"
 }
